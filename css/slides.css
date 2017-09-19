@@ -1,7 +1,7 @@
 @font-face{
-	font-family: 'Noteworthy-Bold';
+	font-family: 'Segoe Print';
 	font-style: normal;
-	src: url('https://gooduling.github.io/trust/css/Noteworthy-Bold.ttf') format('truetype');
+	src: url('https://gooduling.github.io/trust/css/segoepr.ttf') format('truetype');
 }
 
 html,body{
@@ -16,7 +16,7 @@ body{
 
 	background: #fff;
 
-	font-family: 'Noteworthy-Bold';
+	font-family: 'Segoe Print';
 	color: #333;
 	font-size: 16px;
 
