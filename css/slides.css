@@ -1,7 +1,7 @@
 @font-face{
-	font-family: 'FuturaHandwritten';
+	font-family: 'Noteworthy-Bold';
 	font-style: normal;
-	src: url('FuturaHandwritten.ttf') format('truetype');
+	src: url('https://gooduling.github.io/trust/css/Noteworthy-Bold.ttf') format('truetype');
 }
 
 html,body{
@@ -16,9 +16,9 @@ body{
 
 	background: #fff;
 
-	font-family: 'FuturaHandwritten';
+	font-family: 'Noteworthy-Bold';
 	color: #333;
-	font-size: 20px;
+	font-size: 16px;
 
 }
 #preloader{
@@ -30,7 +30,7 @@ body{
     bottom: 0;
     width: 200px;
     height: 50px;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 }
 #main{
@@ -52,11 +52,10 @@ s{
 
 #translations{
 	margin: 10px auto;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 21px;
     color: #fff;
     text-align: center;
-    width: 850px;
 }
 #translations a{
 	color:#dd4040;
@@ -135,8 +134,8 @@ s{
 #slideshow{
 	
 	/*border: 1px solid rgba(0,0,0,0.2);*/
-	width:960px;
-	height:540px;
+	width:1000px;
+	height:600px;
 
 	/* Center this thing */
 	position: absolute;
@@ -201,9 +200,9 @@ s{
 }
 .button #text{
 	
-	font-family: 'FuturaHandwritten';
+	font-family: 'Segoe Print';
 	color: #000;
-	font-size: 24px;
+	font-size: 16px;
 
 	width: 180px;
 	height: 30px;
@@ -294,13 +293,13 @@ s{
 }
 #sandbox_tabs .hitbox{
 	cursor: pointer;
-	font-size: 25px;
+	font-size: 20px;
 	top: 22px;
 }
 #sandbox_tabs .sandbox_page{
 	width: 433px;
 	height: 385px;
-	left: 33px;
+	left: 26px;
 	top: 80px;
 }
 .incdec{
@@ -312,7 +311,7 @@ s{
 }
 .incdec > .incdec_num{
 	width:50px; height:50px;
-	font-size: 25px;
+	font-size: 20px;
 	text-align: center;
     top: -16px;
     left: -25px;
@@ -371,7 +370,7 @@ s{
 	background-size: auto 100%;
 }
 .sandbox_pop_label{
-	font-size: 18px;
+	font-size: 16px;
     width: 150px;
     top: 8px;
     left: 50px;
@@ -436,7 +435,7 @@ s{
 }
 .character #desc{
 	width: calc(100% - 100px);
-	font-size: 18px;
+	font-size: 16px;
 	height: 114px;
 	right: 0;
 	line-height: 1.2em;
@@ -527,7 +526,7 @@ s{
 	color: #888;
 }
 .credits .big{
-	font-size:40px;
+	font-size:36px;
 	line-height: 42px;
 	color:#fff;
 }

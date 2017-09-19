@@ -166,7 +166,7 @@ SLIDES.push({
 		// "Next Match" Button
 		self.add({
 			id:"button", type:"Button",
-			x:510, y:420, size:"long",
+			x:510, y:470, size:"long",
 			text_id:"next_match",
 			onclick:function(){
 				_matchNumber++;
@@ -213,7 +213,7 @@ SLIDES.push({
 		// Next...
 		self.add({
 			id:"button", type:"Button",
-			x:510, y:430, size:"long",
+			x:510, y:480, size:"long",
 			text_id:"tournament_teaser",
 			message: "slideshow/scratch"
 		});

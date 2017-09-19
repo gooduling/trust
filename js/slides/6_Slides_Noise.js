@@ -290,7 +290,7 @@ SLIDES.push({
 
 					// BUTTON
 					self.add({
-						id:"btn_next", type:"Button", x:510, y:366, 
+						id:"btn_next", type:"Button", x:510, y:406, 
 						text_id:"noise_evo_2_2_btn", size:"long",
 						message:"slideshow/next"
 					});
@@ -416,7 +416,7 @@ SLIDES.push({
 
 					// BUTTON
 					self.add({
-						id:"btn_next", type:"Button", x:510, y:446, 
+						id:"btn_next", type:"Button", x:510, y:496, 
 						text_id:"noise_evo_4_2_btn", size:"long",
 						message:"slideshow/next"
 					});
@@ -452,11 +452,11 @@ SLIDES.push({
 		var y = 200;
 		self.add({
 			id:"noiseLabel", type:"TextBox",
-			x:x, y:y, width:450, noSelect:true
+			x:x, y:y+30, width:450, noSelect:true
 		});
 		self.add({
 			id:"noiseSlider", type:"Slider",
-			x:x, y:y+55, width:450,
+			x:x, y:y+85, width:450,
 			min:0.00, max:0.50, step:0.01,
 			message: "rules/noise"
 		});
@@ -524,7 +524,7 @@ SLIDES.push({
 
 		// Next button
 		self.add({
-			id:"button", type:"Button", x:510, y:466, 
+			id:"button", type:"Button", x:510, y:496, 
 			text_id:"noise_evo_6_btn", size:"long",
 			message:"slideshow/scratch"
 		});

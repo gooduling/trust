@@ -35,7 +35,7 @@ SLIDES.push({
 		// Words on top & bottom
 		self.add({
 			id:"topWords", type:"TextBox", text_id:"iterated_intro_top",
-			x:130, y:10, width:700, height:100, align:"center"
+			x:130, y:-10, width:700, height:120, align:"center"
 		});
 		self.add({
 			id:"btmWords", type:"TextBox", text_id:"iterated_intro_btm",
@@ -44,7 +44,7 @@ SLIDES.push({
 
 		// Buttons
 		self.add({
-			id:"buttonCheat", type:"Button", x:275, y:453, uppercase:true,
+			id:"buttonCheat", type:"Button", x:275, y:503, uppercase:true,
 			text_id:"label_cheat",
 			onclick:function(){
 				_.answer = "CHEAT";
@@ -52,7 +52,7 @@ SLIDES.push({
 			}
 		});
 		self.add({
-			id:"buttonCooperate", type:"Button", x:495, y:450, uppercase:true,
+			id:"buttonCooperate", type:"Button", x:495, y:500, uppercase:true,
 			text_id:"label_cooperate",
 			onclick:function(){
 				_.answer = "COOPERATE";
@@ -231,7 +231,7 @@ SLIDES.push({
 		// Score
 		self.add({
 			id:"score2", type:"TextBox",
-			x:114, y:44, width:151, height:132, align:"right", size:123,
+			x:114, y:24, width:151, height:132, align:"right", size:123,
 			text: _.yourTotalScore+""
 		});
 
@@ -277,13 +277,13 @@ SLIDES.push({
 		// Next...
 		self.add({
 			id:"next", type:"TextBox",
-			x:104, y:478, width:447, height:37,
+			x:104, y:528, width:447, height:37,
 			text_id: "characters_teaser"
 		});
 
 		// Next Button!
 		self.add({
-			id:"next_button", type:"Button", x:544, y:471, size:"long",
+			id:"next_button", type:"Button", x:544, y:521, size:"long",
 			text_id:"characters_button",
 			message:"slideshow/scratch"
 		});
